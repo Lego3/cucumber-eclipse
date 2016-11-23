@@ -22,6 +22,7 @@
 		<module>cucumber.eclipse.steps.jdt</module>
 		<module>cucumber.eclipse.p2updatesite</module>
 		<module>cucumber.eclipse.targetdefinition</module>
+		<module>cucumber.eclipse.steps.pydev</module>
 	</modules>
 
 	<build>

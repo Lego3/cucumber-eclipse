@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Cucumber Steps via Pydev
+Bundle-SymbolicName: cucumber.eclipse.steps.pydev;singleton:=true
+Bundle-Version: 0.0.15.qualifier
+Bundle-Activator: cucumber.eclipse.steps.pydev.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.python.pydev.core,
+ org.python.pydev,
+ org.python.pydev.parser,
+ cucumber.eclipse.steps.integration
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: cucumber.eclipse.steps.pydev
